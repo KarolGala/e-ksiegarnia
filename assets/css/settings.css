@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Dosis&display=swap');
+
+.profileCard{
+    display: block;
+    width: 40vw;
+    height: auto;
+    background-color: #a0a0a0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+.profileCardTitle{
+    margin: 0;
+    padding: 2%;
+    background-color: black;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.profileCard ul{
+    list-style: none;
+    color: black;
+    font-family: 'Dosis', sans-serif;  
+    display: inline-block;}
+
+.profileCard ul > li{
+    font-family: 'Dosis', sans-serif;  
+}
+
+
+@media screen and (max-width: 900px) {
+    .profileCard{
+        width: 40vw;
+        height: auto;
+        background-color: #a0a0a0;
+        position: fixed;
+        
+        left: 50%;
+        
+    }
+    .profileCardTitle{
+        font-size: 2vw;
+    }
+
+    
+}
+
+
+.profileCard button {
+	background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 60%;
+}
+
+
+.profileCard button:hover {
+	cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.100);
+
+    
+    
+}
+
+
+#bookImg{
+    max-width: 15vw;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+
+.inputStyle{
+    background-color: transparent;
+    width: 40px;
+    color: rgb(0, 0, 0);
+}
+.profileCard2{
+    display: block;
+    width: 40vw;
+    height: auto;
+    background-color: #a0a0a0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileCard2 h2,
+.profileCard2 form {
+ 
+    text-align: center;
+    margin: 2%;
+    color: black;
+    font-family: 'Dosis', sans-serif; 
+   
+}
+
+.profileCard2 label,
+.profileCard2 input {
+    color: black;
+    font-family: 'Dosis', sans-serif; 
+}
+
+
+
+.profileCard2 input{
+	background-color:transparent ;
+    border: 2px solid #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+}
+
+
+.profileCard2 input:hover {
+	cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.13);
+
+    
+    
+}
+
+
+.gridViewItem2 {
+    display: inline-block;
+    margin:2%;
+    width: 29%;
+    max-width: 200px;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+
+.gridViewItem2 img {
+    width: 100%;
+}
+
+.gridViewInfo {
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.gridViewItem a {
+    text-decoration: none;
+}
